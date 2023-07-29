@@ -1,13 +1,13 @@
 package ramiz.backend.models;
 
-public class getListUser {
+public class getListUserModel {
     private Integer id;
     private String email;
     private String first_name;
     private String last_name;
     private String avatar;
 
-    public getListUser(Integer id, String email, String first_name, String last_name, String avatar) {
+    public getListUserModel(Integer id, String email, String first_name, String last_name, String avatar) {
         this.id = id;
         this.email = email;
         this.first_name = first_name;
