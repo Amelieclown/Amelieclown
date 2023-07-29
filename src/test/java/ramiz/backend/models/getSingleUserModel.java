@@ -15,6 +15,9 @@ public class getSingleUserModel {
         this.avatar = avatar;
     }
 
+    public getSingleUserModel() {
+    }
+
     public Integer getId() {
         return id;
     }

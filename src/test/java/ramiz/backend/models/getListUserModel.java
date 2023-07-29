@@ -15,6 +15,9 @@ public class getListUserModel {
         this.avatar = avatar;
     }
 
+    public getListUserModel() {
+    }
+
     public Integer getId() {
         return id;
     }
