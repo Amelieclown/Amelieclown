@@ -8,8 +8,8 @@ import io.restassured.http.ContentType;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
 
-public class specifications {
-    public static RequestSpecification request(String url, String path){
+public class Specifications {
+    public static RequestSpecification requestFloppa(String url, String path){
     return new RequestSpecBuilder()
         .setBaseUri(url)
         .setBasePath(path)
