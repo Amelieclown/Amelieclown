@@ -38,6 +38,12 @@ public class Specifications {
                 .log(LogDetail.ALL)
                 .build();
     }
+    public static ResponseSpecification responseSystemcode(int systemCode){
+        return new ResponseSpecBuilder()
+                .expectStatusCode(systemCode)
+                .log(LogDetail.ALL)
+                .build();
+    }
     public static void installSpec(RequestSpecification request, ResponseSpecification response){
         RestAssured.requestSpecification = request;
         RestAssured.responseSpecification = response;
