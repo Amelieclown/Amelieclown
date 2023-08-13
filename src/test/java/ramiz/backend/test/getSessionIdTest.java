@@ -1,13 +1,12 @@
 package ramiz.backend.test;
 
 import org.junit.Test;
-import ramiz.backend.models.BaseError;
 import ramiz.backend.specification.Specifications;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 
-public class getSessionId {
+public class getSessionIdTest {
     private final String url = "https://sales-dev-api.south.rt.ru/apiman-gateway";
     private final String oldSessionId = "d54a9cd6-2985-4441-ac46-58c776a9fc1c";
     private final String notExistentSessionId = "floppa2006";
